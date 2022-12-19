@@ -7,8 +7,8 @@ jobs:
     steps:     
       - uses: actions/checkout@v2
 
-      - name: Build
+      - name: boman
         run: |
-          dotnet restore
-          dotnet build
+          sudo pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat==0.8
+          sudo boman-cli-uat -a run -u https://devapi.boman.ai/v2/
     
