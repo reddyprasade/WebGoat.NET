@@ -4,5 +4,20 @@ Auth:
 
 
 
-SAST:
-  language: "csharp"
+#SAST:
+ # language: "csharp"
+
+
+SCA:
+  language: "js"
+  
+  
+DAST:
+  type: "WEB"
+  url: "https://google.co.in/"
+ 
+ 
+ Secret_Scan: True
+
+
+  
