@@ -1,23 +1,23 @@
 Auth:
-  project_token: "36720d9d-802f-43b7-a758-1bf088bb6ff9"
-  customer_token:  "4941f85a-5453-4f94-9247-d5565b4bd116"
+  project_token: "1720db89-e057-4f27-aff4-00917961b3b1"
+  customer_token:  "1f3dc7b3-cb4e-4eb9-b5ee-c780947f12e3"
 
 
 
-#SAST:
- # language: "csharp"
+SAST:
+  language: "csharp"
 
 
-SCA:
-  language: "js"
+#SCA:
+#  language: "js"
   
   
-DAST:
-  type: "WEB"
-  url: "https://google.co.in/"
+#DAST:
+# type: "WEB"
+# url: "https://google.co.in/"
  
  
- Secret_Scan: True
+ #Secret_Scan: True
 
 
   
